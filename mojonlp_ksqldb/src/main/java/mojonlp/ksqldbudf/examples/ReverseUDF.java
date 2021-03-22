@@ -10,6 +10,7 @@ import io.confluent.ksql.function.udf.UdfParameter;
     version = "0.1.0",
     author = ""
 )
+
 public class ReverseUDF {
   @Udf(description = "Reverse a string")
   public String reverseString(
